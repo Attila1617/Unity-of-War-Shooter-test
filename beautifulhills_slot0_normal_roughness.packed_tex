@@ -1,0 +1,8 @@
+{
+	"contains_albedo": false,
+	"resolution": 2048,
+	"src": {
+		"a": "res://Terrains/Hills/Assets/Grass001_2K_Roughness.jpg",
+		"rgb": "res://Terrains/Hills/Assets/Grass001_2K_NormalGL.jpg"
+	}
+}

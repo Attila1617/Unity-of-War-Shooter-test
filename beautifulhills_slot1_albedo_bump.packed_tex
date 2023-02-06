@@ -1,0 +1,8 @@
+{
+	"contains_albedo": true,
+	"resolution": 2048,
+	"src": {
+		"a": "res://Terrains/Hills/Assets/Grass004_4K_Displacement.jpg",
+		"rgb": "res://Terrains/Hills/Assets/Grass004_4K_Color.jpg"
+	}
+}

@@ -1,0 +1,19 @@
+[remap]
+
+importer="hterrain_packed_texture_importer"
+type="StreamTexture"
+path.s3tc="res://.import/beautifulhills_slot1_albedo_bump.packed_tex-1aa231e7fd4e329f690d323250d3a27d.s3tc.stex"
+path.etc2="res://.import/beautifulhills_slot1_albedo_bump.packed_tex-1aa231e7fd4e329f690d323250d3a27d.etc2.stex"
+
+[deps]
+
+source_file="res://beautifulhills_slot1_albedo_bump.packed_tex"
+dest_files=[ "res://.import/beautifulhills_slot1_albedo_bump.packed_tex-1aa231e7fd4e329f690d323250d3a27d.s3tc.stex", "res://.import/beautifulhills_slot1_albedo_bump.packed_tex-1aa231e7fd4e329f690d323250d3a27d.etc2.stex" ]
+
+[params]
+
+compress/mode=2
+flags/repeat=1
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false

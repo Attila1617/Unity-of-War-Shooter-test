@@ -8,10 +8,41 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "MeshInstance",
+"class": "CloudDome",
+"language": "GDScript",
+"path": "res://addons/cloud/Cloud.gd"
+}, {
+"base": "ResourceFormatLoader",
+"class": "HTerrainDataLoader",
+"language": "GDScript",
+"path": "res://addons/zylann.hterrain/hterrain_resource_loader.gd"
+}, {
+"base": "ResourceFormatSaver",
+"class": "HTerrainDataSaver",
+"language": "GDScript",
+"path": "res://addons/zylann.hterrain/hterrain_resource_saver.gd"
+} ]
+_global_script_class_icons={
+"CloudDome": "",
+"HTerrainDataLoader": "",
+"HTerrainDataSaver": ""
+}
+
 [application]
 
 config/name="Testing"
+run/main_scene="res://desert.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/fullscreen=true
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/SIsilicon.vfx.godrays/plugin.cfg", "res://addons/cloud/plugin.cfg", "res://addons/zylann.hterrain/plugin.cfg" )
 
 [gui]
 
@@ -51,4 +82,9 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
+quality/filters/msaa=2
+quality/filters/use_fxaa=true
 environment/default_environment="res://default_env.tres"
+quality/godrays/sample_number=50
+quality/godrays/use_pcf5=false
+quality/godrays/dither_amount=1.0
